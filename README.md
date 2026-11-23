@@ -1,11 +1,7 @@
 # Práctica 3: Controlador de Máquina Expendedora en Arduino UNO
 
----
-
 ## 1. Introducción y Objetivo
 El objetivo de esta práctica es diseñar e implementar el controlador software en tiempo real para una máquina expendedora automática sobre **Arduino UNO**. El sistema gestiona de forma concurrente y no bloqueante la interacción con el usuario (pantalla LCD 16x2, joystick analógico, pulsador externo e indicadores LED) y la lectura de sensores ambientales y de proximidad (DHT11 y ultrasonidos HC-SR04), cumpliendo estrictamente con los modos de operación **Arranque**, **Servicio** y **Administración**.
-
----
 
 ## 2. Esquema de Conexiones y Montaje Hardware
 
@@ -61,7 +57,6 @@ El software se ha modularizado en ficheros independientes (`Maquina.ino`, `Siste
 * **Recurso:** Watchdog Timer configurado a **4 segundos** (`wdt_disable()`, `wdt_enable(WDTO_4S)` y `wdt_reset()` en cada iteración del `loop()`).
 * **Justificación:** Actúa como mecanismo interno anti-bloqueos. Mientras el programa se ejecuta con normalidad, `wdt_reset()` reinicia la cuenta atrás de 4 segundos en cada vuelta del `loop()`. Si un fallo en un sensor dejara el código detenido más de ese tiempo, el temporizador llega a cero y reinicia automáticamente el microcontrolador para recuperar el servicio.
 
----
 
 ## 4. Máquina de Estados Implementada
 1. **Modo Arranque (`ARRANQUE`):** Muestra `CARGANDO` en la LCD mientras hace parpadear `LED1` 3 veces en intervalos de 1 segundo (`1000 ms`). Al finalizar, apaga `LED1` y pasa a `SERVICIO`.
