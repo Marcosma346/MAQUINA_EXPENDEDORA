@@ -29,8 +29,16 @@ El objetivo de esta práctica es diseñar e implementar el controlador software 
 <img width="2160" height="2160" alt="maquina-expendedora" src="https://github.com/user-attachments/assets/a23d55b0-ff57-4c0e-b86a-a25e848f7738" />
 
 ### Fotografías del Montaje Real
-
----
+<p align="center">
+  <img width="200" alt="Montaje 1" src="https://github.com/user-attachments/assets/c67ae388-9dc1-4d29-ae26-a75401d28639" />
+  <img width="200" alt="Montaje 2" src="https://github.com/user-attachments/assets/d678e304-b04a-44a0-bfd2-f5bfbca45cff" />
+  <img width="200" alt="Montaje 3" src="https://github.com/user-attachments/assets/02a130bf-a9cd-4c46-81d2-c31f9ddef1f2" />
+  <img width="200" alt="Montaje 4" src="https://github.com/user-attachments/assets/514d1f86-ed1e-459c-86b3-67e56df81103" />
+</p>
+<p align="center">
+  <img width="410" alt="Detalle LCD y Protoboard" src="https://github.com/user-attachments/assets/5f43d36e-42f6-4c65-ab2a-699efb3f2b30" />
+  <img width="410" alt="Vista general superior" src="https://github.com/user-attachments/assets/a228ff42-333e-4399-9a91-376318eb260e" />
+</p>
 
 ## 3. Arquitectura Software y Recursos Utilizados
 
