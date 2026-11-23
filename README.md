@@ -1,5 +1,5 @@
 # Práctica 3: Controlador de Máquina Expendedora en Arduino UNO
-**Asignatura:** Sistemas Empotrados y de Tiempo Real  
+**Asignatura:** Sistemas Empotrados y de Tiempo Real
 **Plataforma:** Arduino UNO 
 
 ---
